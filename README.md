@@ -15,10 +15,10 @@ for light trimming and quality filtering. PANDAseq will then merge the read pair
 ### To run this script, make sure to:
 1. Install Anaconda (https://www.anaconda.com) or Miniconda (https://docs.conda.io/en/latest/miniconda.html).
 2. Create a conda environment (https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and install dada2 package by executing `conda install -c bioconda bioconductor-dada2`in the linux terminal.
-3. In the same conda environment, install cutadapt and pandaseq and make sure that the script below is modified to point to their installed locations.
+3. Activate the conda environment, install Cutadapt and Pandaseq and make sure that the script below is modified to point to their installed locations.
 4. Create a directory containing this R script and the relevant FASTQ files pertaining to a single variant library (Ga OR H3; A separate directory, R script, and set of demultiplexed FASTQ files should be used for the other library).
 5. Set the appropriate work directories in the script below.
-6. Set appropriate primer sequences for cutadapt (variant library-dependent). For Ga use "CTATGAAGTTCGTATTGAGT" for FWD and "TAAGAAATTCGCGCGGCCGCTTATTTA" for REV. For H3 use "GGATGCAATTTGGAGGGCTT" for FWD and "AGTTGCTCATGGGCTTACACACCACCA" for REV.
+6. Set appropriate primer sequences for Cutadapt (variant library-dependent). For Ga use "CTATGAAGTTCGTATTGAGT" for FWD and "TAAGAAATTCGCGCGGCCGCTTATTTA" for REV. For H3 use "GGATGCAATTTGGAGGGCTT" for FWD and "AGTTGCTCATGGGCTTACACACCACCA" for REV.
 7. To execute this script, navigate to the directory containing this script in the terminal and execute `R --no-save < [NAME OF .R script] > [NAME OF LOG FILE].log`.
 8. Once the run is complete, navigate into the output directory (cutadapt > filtered > pandamerge) to find the output files. These files can then be concatenated into a single file and converted into fasta format for further downstream processing (see bottom of script for commands).
 
