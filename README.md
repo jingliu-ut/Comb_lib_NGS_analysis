@@ -12,7 +12,7 @@ for light trimming and quality filtering. PANDAseq will then merge the read pair
 - DADA2 v1.26.0 (https://www.nature.com/articles/nmeth.3869)
 - Cutadapt v4.2 (https://journal.embnet.org/index.php/embnetjournal/article/view/200)
 - Pandaseq v2.11 (https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-13-31)
-### To run this script, make sure to:
+### Instructions for running this script:
 1. Install Anaconda (https://www.anaconda.com) or Miniconda (https://docs.conda.io/en/latest/miniconda.html).
 2. Create a conda environment (https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) and install dada2 package by executing `conda install -c bioconda bioconductor-dada2`in the linux terminal.
 3. Activate the conda environment, install Cutadapt and Pandaseq and make sure that the script below is modified to point to their installed locations.
