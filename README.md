@@ -59,3 +59,10 @@ distributions. Proportion of false positive variant calls given all reads
 can then be determined for user-selected abundance thresholds.
 ### Required programs and packages summary:
 Same as Part 2.
+
+### Relevant References
+- Callahan, B. J., McMurdie, P. J., Rosen, M. J., Han, A. W., Johnson, A. J. A., & Holmes, S. P. (2016). DADA2: High-resolution sample inference from Illumina amplicon data. Nature Methods, 13(7), 581–583. https://doi.org/10.1038/nmeth.3869 (DADA2)
+- Martin, M. (2011). Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet.Journal, 17(1), 10. https://doi.org/10.14806/ej.17.1.200 (Cutadapt)
+- Masella, A. P., Bartram, A. K., Truszkowski, J. M., Brown, D. G., & Neufeld, J. D. (2012). PANDAseq: Paired-end assembler for illumina sequences. BMC Bioinformatics, 13(1). https://doi.org/10.1186/1471-2105-13-31 (PANDAseq)
+- Edgar, R. C. (2013). UPARSE: highly accurate OTU sequences from microbial amplicon reads. Nature Methods 2013 10:10, 10(10), 996–998. https://doi.org/10.1038/nmeth.2604 (UPARSE/USEARCH algorithm implemented in PANDAseq)
+- Rosen, M. J., Callahan, B. J., Fisher, D. S., & Holmes, S. P. (2012). Denoising PCR-amplified metagenome data. http://www.biomedcentral.com/1471-2105/13/283 (Abundance thresholding idea)
