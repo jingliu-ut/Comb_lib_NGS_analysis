@@ -33,13 +33,15 @@ bases are written into parquet file format (uses RAPIDS and/or DASK on NVIDIA
 GPUs) to enable much faster read and write speeds compared to csv format.
 The mutated bases are then concatenated into a single file.
 ### Required programs and packages summary:
-
+- Python3.9 (https://www.python.org/downloads/)
+- Rapids (https://docs.rapids.ai/install#conda)
 
 ## Part 3: Variant analysis
 ### Summary:
 Here, we determine the number of unique dna and protein sequences in each
 library given a range of abundance filters.
 ### Required programs and packages summary:
+Same as Part 2.
 
 
 ## Part 4: Variant abundance analysis
@@ -56,3 +58,4 @@ selection here by looking for a natural break in the distributions.
 Proportion of false positive variant calls given all reads can then be
 determined for user-selected abundance thresholds.
 ### Required programs and packages summary:
+Same as Part 2.
