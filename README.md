@@ -52,10 +52,10 @@ regions designated for mutagenesis (mutated) and surrounding bases
 calls given all reads, the mutated regions (12 bases) were compared to 12
 randomly selected bases from the non-mutated regions for each library. The
 resulting distribution of variant abundances for both the mutated and
-non-mutated regions can then be compared to set abundance thresholds. Abundance
-thresholds are arbitrary but computationally necessary. We justify our
-selection here by looking for a natural break in the distributions.
-Proportion of false positive variant calls given all reads can then be
-determined for user-selected abundance thresholds.
+non-mutated regions can then be compared to set help abundance thresholds. 
+Abundance thresholds are arbitrary but computationally necessary. We 
+justify our selection here by looking for a natural break in the 
+distributions. Proportion of false positive variant calls given all reads 
+can then be determined for user-selected abundance thresholds.
 ### Required programs and packages summary:
 Same as Part 2.
