@@ -1,4 +1,4 @@
-# Variant Abundance Analysis
+# Variant abundance analysis
 
 This script takes pre-processed sequence files (parquet files) containing
 regions designated for mutagenesis (mutated) and surrounding bases
