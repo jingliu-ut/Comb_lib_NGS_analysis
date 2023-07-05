@@ -36,7 +36,7 @@ The mutated bases are then concatenated into a single file.
 - Python3.9 (https://www.python.org/downloads/)
 - Rapids (https://docs.rapids.ai/install#conda)
 
-## Part 3: Variant analysis
+## Part 3: Coverage analysis
 ### Summary:
 Here, we determine the number of unique dna and protein sequences in each
 library given a range of abundance filters.
