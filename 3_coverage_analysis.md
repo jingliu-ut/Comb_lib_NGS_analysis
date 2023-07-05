@@ -1,4 +1,4 @@
-# Variants Analysis
+# Coverage analysis
 
 Here, we determine the number of unique dna and protein sequences in each
 library given a range of abundance filters.
