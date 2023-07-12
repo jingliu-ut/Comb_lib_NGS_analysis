@@ -34,7 +34,8 @@ GPUs) to enable much faster read and write speeds compared to csv format.
 The mutated bases are then concatenated into a single file.
 ### Required programs and packages summary:
 - Python3.9 (https://www.python.org/downloads/)
-- Rapids (https://docs.rapids.ai/install#conda)
+- Rapids22.12.00 (https://docs.rapids.ai/install#conda)
+- Dask-cudf22.12.01
 
 ## Part 3: Coverage analysis
 ### Summary:
