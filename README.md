@@ -1,4 +1,6 @@
 # Comb_lib_NGS_analysis
+[![DOI](https://zenodo.org/badge/661528862.svg)](https://zenodo.org/badge/latestdoi/661528862)
+
 
 ## Part 1: Pipeline for quality filtering, trimming, and merging
 ### Summary:
