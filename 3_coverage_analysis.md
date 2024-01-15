@@ -438,15 +438,6 @@ print("\nDone")
     
     Done
 
-
-
-```python
-import os
-print('h')
-print(os.getcwd())
-
-```
-
     h
     /media/scratch/post_analysis/post_analysis/post_analysis
 
