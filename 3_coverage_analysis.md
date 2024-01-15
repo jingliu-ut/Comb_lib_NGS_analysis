@@ -437,7 +437,3 @@ print("\nDone")
     Coverage for nnk_H3_aa_data = 99.49712311228346
     
     Done
-
-    h
-    /media/scratch/post_analysis/post_analysis/post_analysis
-
